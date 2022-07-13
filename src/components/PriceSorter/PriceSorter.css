@@ -1,0 +1,26 @@
+.sortby-price-container
+{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price-sort-option
+{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.price-sort-option:hover
+{
+    background-color: var(--bluish-white);
+}

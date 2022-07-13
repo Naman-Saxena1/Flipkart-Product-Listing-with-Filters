@@ -1,0 +1,81 @@
+{
+  "items": [
+    {      
+      "id": 1,
+      "name": "Slim Fit Men Green Cotton Blend Trousers",
+      "brand": "Puma",
+      "gender": "men",
+      "price": 200,
+      "sizesAvailable": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "imgSrc": "https://rukminim1.flixcart.com/image/880/1056/kfoapow0-0/trouser/l/q/x/32-hltr003972-highlander-original-imafw2judhwchvdz.jpeg?q=50"
+    },
+    {
+      "id": 2,
+      "name": "Solid Men Black Track Pants",
+      "brand": "Adidas",
+      "gender": "men",
+      "price": 100,
+      "sizesAvailable": [
+        "s",
+        "m"
+      ],
+      "imgSrc": "https://rukminim1.flixcart.com/image/880/1056/l45xea80/track-pant/l/o/r/s-tr10-qfabrix-original-imagf4gz2uhuqfn5.jpeg?q=50"
+    },
+    {
+      "id": 3,
+      "name": "Striped Men Polo Neck White, Blue, Green T-Shirt",
+      "brand": "Allen Solly",
+      "gender": "men",
+      "price": 400,
+      "sizesAvailable": [
+        "l",
+        "xl"
+      ],
+      "imgSrc": "https://rukminim1.flixcart.com/image/880/1056/kzegk280/t-shirt/r/o/t/s-t285hs-as7whdngr-eyebogler-original-imagbfygwtubscjw.jpeg?q=50"
+    },
+    {
+      "id": 4,
+      "name": "Color Block Women Round Neck Black, Maroon T-Shirt",
+      "brand": "Wrogn",
+      "gender": "women",
+      "price": 200,
+      "sizesAvailable": [
+        "s",
+        "xl"
+      ],
+      "imgSrc": "https://rukminim1.flixcart.com/image/880/1056/l2arp8w0/shopsy-t-shirt/s/3/0/s-nmp-try-this-original-imag5xe3sdhgg8sg.jpeg?q=50"
+    },
+    {
+      "id": 5,
+      "name": "Skinny Women Black Jeans",
+      "brand": "Adidas",
+      "gender": "women",
+      "price": 500,
+      "sizesAvailable": [
+        "m",
+        "l",
+        "xl"
+      ],
+      "imgSrc": "https://rukminim1.flixcart.com/image/880/1056/klb78nk0/jean/2/q/w/32-jean-pln-blk-nifty-original-imagygz4gm7xyg8a.jpeg?q=50"
+    },
+    {
+      "id": 6,
+      "name": "Full Sleeve Printed Baby Boys Sweatshirt",
+      "brand": "Allen Solley",
+      "gender": "children",
+      "price": 700,
+      "sizesAvailable": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "imgSrc": "https://rukminim1.flixcart.com/image/880/1056/kv1a4cw0/sweatshirt/r/e/v/15-16-years-121246524756-c775-gini-jony-original-imag8fy9bhyqvgb3.jpeg?q=50"
+    }
+  ]
+}

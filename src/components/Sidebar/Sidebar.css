@@ -1,0 +1,71 @@
+.filters-sidebar
+{
+    position: relative;
+    width: 28rem;
+    min-width: 27rem;
+    min-height: calc(100vh - 72px);
+    margin-right: 8px;
+    padding: 2rem;
+    background-color: var(--color-pure-white);
+}
+
+.filters-sidebar hr
+{
+    border-color: var(--color-bg-grey);
+}
+
+.filter-header-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-heading
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.clear-all-filter
+{
+    cursor: pointer;
+    color: var(--color-brand-blue);
+}
+
+.filter-type-heading
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sizes-filter-container, .brand-filter-container, .gender-filter-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.sizes-options-container, .brands-options-container, .gender-options-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox-item
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.checkbox-item label
+{
+    margin-left: 5px;
+    user-select: none;
+    cursor: pointer;
+}
