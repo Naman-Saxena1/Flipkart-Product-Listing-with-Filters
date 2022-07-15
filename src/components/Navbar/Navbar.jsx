@@ -1,5 +1,5 @@
+import { BsFillCartFill } from "../../assets/icons"
 import "./Navbar.css"
-// import { flipkartLogo } from ""
 
 function Navbar()
 {
@@ -9,8 +9,7 @@ function Navbar()
                 <img 
                     className="flipkart-logo"
                     src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
-                    alt="flipkart" 
-                    srcset="" 
+                    alt="flipkart"
                 />
             </div>
             <div className="searchbar-container">
@@ -21,6 +20,10 @@ function Navbar()
                 />
             </div>
             <button className="btn-login">Login</button>
+            <div className="btn-cart">
+                <BsFillCartFill/>
+                Cart
+            </div>
         </div>
     )
 }

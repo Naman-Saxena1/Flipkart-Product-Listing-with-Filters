@@ -26,8 +26,8 @@ function ProductCard({itemDetails})
                 <p>Brand: {brand}</p>
                 <p>₹{price}</p>
                 <span>Sizes: </span>{
-                    sizesAvailable.map(size=>
-                        <span className="sizes-available">{size.toUpperCase()}</span>    
+                    sizesAvailable.map((size,index)=>
+                        <span key={index} className="sizes-available">{size.toUpperCase()}</span>    
                     )
                 }
             </div>

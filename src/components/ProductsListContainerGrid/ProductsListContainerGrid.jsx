@@ -2,11 +2,15 @@ import {
     PriceSorter,
     ProductCard
 } from "../index"
-import products  from "../../data/productsData"
+import {
+    useProducts
+} from "../../context/index"
 import "./ProductsListContainerGrid.css"
 
 function ProductsListContainerGrid()
 {
+    const { filteredProducts } = useProducts()
+
     return (
         <div className="products-container">
             <PriceSorter/>
@@ -14,8 +18,8 @@ function ProductsListContainerGrid()
 
             <div className="products-grid">
                 {
-                    products.items.map(itemDetails=>
-                        <ProductCard itemDetails={itemDetails}/>    
+                    filteredProducts.products.items.map(itemDetails=>
+                        <ProductCard key={itemDetails.id} itemDetails={itemDetails}/>    
                     )
                 }
             </div>

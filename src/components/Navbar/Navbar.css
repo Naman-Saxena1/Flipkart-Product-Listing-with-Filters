@@ -48,3 +48,13 @@
     color: var(--color-brand-blue);
     background-color: var(--color-pure-white);
 }
+
+.btn-cart
+{
+    font-size: 14px;
+    color: var(--color-pure-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}

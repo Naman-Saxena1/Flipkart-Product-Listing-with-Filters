@@ -1,0 +1,1 @@
+export { useProducts, ProductsContextProvider } from "./ProductsContext"
